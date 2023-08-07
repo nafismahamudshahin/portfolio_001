@@ -1,0 +1,66 @@
+/* header{
+    background-color: rgb(170, 103, 22);
+ 
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0 10px;
+}
+nav ul li{
+    padding: 0 10px;
+}
+.logo{
+    padding-right: 598px;
+} */
+body {
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: #333;
+}
+nav {
+    width: 50%;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 15px;
+    text-decoration: none;
+}
+.logo_spn{
+    color: rgb(119, 202, 24);
+    text-align: center;
+    display: block;
+    padding: 8px 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.logo_spn span{
+    color: rgb(168, 166, 17);
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+.logo{
+    width: 50%;
+    display: flex;
+  
+}
